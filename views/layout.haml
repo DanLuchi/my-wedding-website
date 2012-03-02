@@ -31,10 +31,10 @@
         = image_tag "denver.png", :width => 950, :height => 226, :alt => "The Denver Skyline"
         %h1 Dan & Ally
         %time September 8, 2012
-      .left-col
-        = render :places
-      .right-col
-        = render :people
+      -# .left-col
+      = render :places
+      -# .right-col
+      -#   = render :people
         
     %script{ :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" }
     %script{ :src => "javascripts/app.js" }
