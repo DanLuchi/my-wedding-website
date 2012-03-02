@@ -22,24 +22,17 @@ body
 a
   +link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
 
-img
-  
 body ul
   +no-bullets
   
-body li
-  
 ul.links
   +horizontal-list
-  li 
 
 #container
   +container
-  //+grid-background($blueprint-grid-columns, $blueprint-grid-width, $blueprint-grid-margin)
 
 header
   position: relative
-  margin-bottom: 2.5em
     
   h1
     position: absolute
@@ -57,8 +50,6 @@ header
     +text-shadow(0px 2px 3px #555)
     
 section
-  padding-bottom: 1em
-
   .content 
     padding-top: 2em
     li
@@ -75,7 +66,6 @@ section.places
   .links li
     padding: 4px 10px
     +border-radius(5px)
-    // border: 1px solid black
     font-size: 115%
     a
       text-decoration: none
@@ -97,7 +87,6 @@ section.places
     
 // == People ==
 section.people
-  // border: 1px dashed gray
   
   .links li
     +column(1)
