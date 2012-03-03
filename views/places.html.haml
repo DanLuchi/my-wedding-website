@@ -2,6 +2,8 @@
   / %h2 Locations
   %ul.links
     %li.active
+      %a{:href => '#us'} About Us
+    %li
       %a{:href => '#venue'} Venue
     %li 
       %a{:href => '#guest_information'} Guest Information
@@ -11,6 +13,61 @@
       %a{:href => '#registry'} Registry
       
   %ul.content
+    %li#us.active
+      %ul.content
+        %li#tree.active
+          = image_tag "tree.jpg"
+
+        %li#kristina
+          = image_tag "kristina.jpg"
+
+        %li#kathryn
+          = image_tag 'kathryn.jpg'
+
+        %li#christine
+          = image_tag 'christine.jpg'
+
+        %li#amanda
+          = image_tag "amanda.jpg"
+
+        %li#jeff
+          = image_tag "bro.jpg"
+
+        %li#reed
+          = image_tag "reed.jpg"
+
+        %li#drew
+          = image_tag "drew.jpg"
+
+        %li#justin
+          = image_tag "justin.jpg"
+
+        %li#steve
+          = image_tag "steve.jpg"
+
+    %ul.links
+      %li.active
+        %a{:href => '#tree'}= image_tag "tree_thumb.jpg"
+      %li
+        %a{:href => '#christine'}= image_tag 'christine.jpg'
+      %li
+        %a{:href => '#kathryn'}= image_tag 'kathryn.jpg'
+      %li
+        %a{:href => '#kristina'}= image_tag 'kristina.jpg'
+      %li.last
+        %a{:href => '#amanda'}= image_tag "amanda.jpg"
+
+      %li
+        %a{:href => '#jeff'}= image_tag "bro.jpg"
+      %li
+        %a{:href => '#steve'}= image_tag "steve.jpg"
+      %li
+        %a{:href => '#drew'}= image_tag "drew.jpg"
+      %li
+        %a{:href => '#reed'}= image_tag "reed.jpg"
+      %li.last
+        %a{:href => '#justin'}= image_tag "justin.jpg"
+
     %li#venue.active
       = image_tag 'grant-humphreys.jpeg'
       %p
