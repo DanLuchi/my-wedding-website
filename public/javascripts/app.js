@@ -1,6 +1,6 @@
 $(function () {
 
-  $('body').delegate('.links li', 'click', changeTab)
+  $('body').delegate('.tabs li', 'click', changeTab)
 
   function changeTab (e) {
     var el, id, container, now, old
