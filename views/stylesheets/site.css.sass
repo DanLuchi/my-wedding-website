@@ -85,9 +85,16 @@ section.places
   img
     display: none
 
-  .images .active img
-    height: 500px
-    display: block
+  .images
+    img
+      float: left
+  
+    p
+      float: right
+    
+    & .active img
+      height: 500px
+      display: block
   
   //.thumbs li 
   //  display: block
