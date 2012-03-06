@@ -1,5 +1,5 @@
 %section.places
-  %ul.links
+  %ul.tabs
     %li.active
       %a{:href => '#us'} About Us
     %li
@@ -13,7 +13,7 @@
       
   %ul.content
     %li#us.active
-      %ul.content
+      %ul.images
         %li#tree.active
           = image_tag "tree.jpg"
 
@@ -44,7 +44,7 @@
         %li#steve
           = image_tag "steve.jpg"
 
-    %ul.links
+    %ul.thumbs
       %li.active
         %a{:href => '#tree'}= image_tag "tree_thumb.jpg"
       %li

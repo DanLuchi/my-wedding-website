@@ -82,29 +82,36 @@ section.places
     img
       height: 500px
       display: block
-      margin: 0 0 1.5em
+      //margin: 0 0 1.5em
+  
+  .images 
+    display: none
+    
+    & .active img
+      height: 500px
+      display: block
     
     
 // == People ==
-section.people
-  
-  .links li
-    width: 60px
-    height: 90px
-    margin-bottom: 1em
-    +opacity(.5)
-    +transition(opacity, 750ms)
-    &.last
-      +column(1, true)
-    &.active, &:hover
-      +opacity(1)
-
-  .content .active img
-    width: 950px
-    display: block
-    margin: 0 0 1.5em
-      
-
-  h3 em
-    color: #444
-    font-style: normal
+//section.people
+//  
+//  .links li
+//    width: 60px
+//    height: 90px
+//    margin-bottom: 1em
+//    +opacity(.5)
+//    +transition(opacity, 750ms)
+//    &.last
+//      +column(1, true)
+//    &.active, &:hover
+//      +opacity(1)
+//
+//  .content .active img
+//    width: 950px
+//    display: block
+//    margin: 0 0 1.5em
+//      
+//
+//  h3 em
+//    color: #444
+//    font-style: normal
