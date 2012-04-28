@@ -5,6 +5,8 @@
     %title Dan &amp; Ally - September 8, 2012
     = stylesheet_link_tag "site.css"
     = yield_content :head
+    /
+    /[if lte IE 8]
       %script{ :src => "javascripts/html5.js" }
     
     %script
